@@ -9,7 +9,7 @@ Installation
 
 Add the FakerRestaurant library to your `composer.json` file:
 
-    composer require jzonta/FakerRestaurant
+   composer require jzonta/faker-restaurant
 
 Usage
 -----
