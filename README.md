@@ -9,7 +9,9 @@ Installation
 
 Add the FakerRestaurant library to your `composer.json` file:
 
-   composer require jzonta/faker-restaurant
+```
+composer require jzonta/faker-restaurant
+```
 
 Usage
 -----
@@ -30,5 +32,7 @@ $faker->beverageName();  // A random Beverage Name
 Language specific formatters
 -----
 
+```
 en_US -> \FakerRestaurant\Provider\en_US\FakerProvider
 pt_BR -> \FakerRestaurant\Provider\pt_BR\FakerProvider
+```
