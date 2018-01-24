@@ -16,7 +16,7 @@ composer require jzonta/faker-restaurant
 Usage
 -----
 
-To  use this with [Faker](https://github.com/fzaninotto/Faker), you must add the `FakerRestaurant\FakerProvider` class to the Faker generator:
+To  use this with [Faker](https://github.com/fzaninotto/Faker), you must add the `FakerRestaurant\Restaurant` class to the Faker generator:
 
 ```php
 <?php
@@ -33,6 +33,6 @@ Language specific formatters
 -----
 
 ```
-en_US -> \FakerRestaurant\Provider\en_US\FakerProvider
-pt_BR -> \FakerRestaurant\Provider\pt_BR\FakerProvider
+en_US -> \FakerRestaurant\Provider\en_US\Restaurant
+pt_BR -> \FakerRestaurant\Provider\pt_BR\Restaurant
 ```
