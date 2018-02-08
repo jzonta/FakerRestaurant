@@ -22,7 +22,7 @@ To  use this with [Faker](https://github.com/fzaninotto/Faker), you must add the
 <?php
 
 $faker = \Faker\Factory::create();
-$faker->addProvider(new \FakerRestaurant\Provider\en_US\FakerProvider($faker));
+$faker->addProvider(new \FakerRestaurant\Provider\pt_BR\Restaurant($faker));
 
 // Generator
 $faker->foodName();      // A random Food Name
