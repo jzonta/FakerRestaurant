@@ -33,7 +33,7 @@ Language specific formatters
 -----
 
 ```
-en_US -> \FakerRestaurant\Provider\en_US\FakerProvider
-pt_BR -> \FakerRestaurant\Provider\pt_BR\FakerProvider
+en_US -> \FakerRestaurant\Provider\en_US\Restaurant
+pt_BR -> \FakerRestaurant\Provider\pt_BR\Restaurant
 ja_JP -> \FakerRestaurant\Provider\ja_JP\Restaurant
 ```
