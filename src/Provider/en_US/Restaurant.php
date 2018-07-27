@@ -15,7 +15,7 @@ class Restaurant extends \Faker\Provider\Base
     protected static $beverageNames = array(
         'Beer', 'Bud Light', 'Budweiser', 'Miller Lite',
         'Milk Shake', 'Tea', ' Sweet Tea', 'Coffee', 'Hot Tea',
-        'Champagne', 'Wine', 'Limonade', 'Coca_cola', 'Diet-Coke',
+        'Champagne', 'Wine', 'Limonade', 'Coca-Cola', 'Diet-Coke',
         'Water', 'Sprite', 'Orange Juice', 'Iced Coffee'
     );
 
