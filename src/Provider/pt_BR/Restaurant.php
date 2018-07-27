@@ -33,7 +33,7 @@ class Restaurant extends \Faker\Provider\Base
     }
 
     /**
-     * A random Drink Name.
+     * A random Beverage Name.
      * @return string
      */
     public function beverageName()

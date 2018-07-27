@@ -32,7 +32,7 @@ class Restaurant extends \Faker\Provider\Base
      * A random Beverage Name.
      * @return string
      */
-            public function beverageName()
+    public function beverageName()
     {
         return static::randomElement(static::$beverageNames);
     }
