@@ -4,19 +4,19 @@ namespace FakerRestaurant\Provider\id_ID;
 
 class Restaurant extends \Faker\Provider\Base
 {
-
     protected static $foodNames = array(
-        'Cheese Pizza', 'Hamburger', 'Cheeseburger', 'Bacon Burger', 'Bacon Cheeseburger',
-        'Little Hamburger', 'Little Cheeseburger', 'Little Bacon Burger', 'Little Bacon Cheeseburger',
-        'Veggie Sandwich', 'Cheese Veggie Sandwich', 'Grilled Cheese',
-        'Cheese Dog', 'Bacon Dog', 'Bacon Cheese Dog', 'Pasta'
+        'Nasi Goreng', 'Mie Goreng', 'Mie Rebus', 'Kwetiau Goreng', 'Kwetiau Rebus',
+        'Nasi Uduk', 'Ayam Goreng', 'Ayam Bakar', 'Sate Ayam', 'Sate Kambing',
+        'Soto Ayam', 'Soto Betawi', 'Sop Ayam', 'Rendang', 'Siomay', 'Batagor',
+        'Sayur Lodeh', 'Sayur Asam', 'Sayur Bening', 'Pasta', 'Ketoprak', 'Ikan Bakar',
+        'Nasi Uduk', 'Nasi Kuning', 'Sayur Lodeh', 'Gulai', 'Sop Buntut'
     );
 
     protected static $beverageNames = array(
-        'Beer', 'Bud Light', 'Budweiser', 'Miller Lite',
-        'Milk Shake', 'Tea', ' Sweet Tea', 'Coffee', 'Hot Tea',
-        'Champagne', 'Wine', 'Limonade', 'Coca-Cola', 'Diet-Coke',
-        'Water', 'Sprite', 'Orange Juice', 'Iced Coffee'
+        'Es Teh', 'Es Jeruk', 'Jus Jambu', 'Jus Alpukat', 'Es Buah', 'Es Dawet',
+        'Es Kelapa Muda', 'Wedang Ronde', 'Susu Hangat', 'Kopi', 'Teh Panas',
+        'Jeruk Hangat', 'Coca-Cola', 'Diet-Coke', 'Es Susu', 'Susu Coklat',
+        'Air Putih', 'Sprite', 'Jus Jeruk', 'Es Kopi', 'Es Cendol', 'Skoteng'
     );
 
     /**
