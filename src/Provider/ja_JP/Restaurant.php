@@ -4,21 +4,21 @@ namespace FakerRestaurant\Provider\ja_JP;
 
 class Restaurant extends \Faker\Provider\Base
 {
-    protected static $foodNames = [
+    protected static $foodNames = array(
         'ピザ', 'ハンバーガー', 'チーズバーガー', '寿司', '牛丼',
         'すき焼き', '天ぷら', '焼肉', '蕎麦',
         'パン', 'サンドウィッチ', 'うどん',
         '納豆巻', 'カレー', 'カツ丼', 'パスタ'
-    ];
+    );
 
-    protected static $beverageNames = [
+    protected static $beverageNames = array(
         'ビール', '黒ラベル', 'サッポロ', '一番搾り',
         '牛乳', 'お茶', '紅茶', 'コーヒー', 'ホットティー',
         'シャンパン', 'ワイン', 'レモネード', 'コカ・コーラ', 'ダイエットコーラ',
         '水', 'スプライト', 'オレンジジュース', 'アイスコーヒー'
-    ];
+    );
 
-    protected static $dairyNames = [
+    protected static $dairyNames = array(
         'バター',
         '卵',
         '牛乳',
@@ -28,10 +28,10 @@ class Restaurant extends \Faker\Provider\Base
         'ヨーグルト',
         'クリーム',
         '牛乳',
-        'カスタード',
-    ];
+        'カスタード'
+    );
 
-    protected static $vegetableNames = [
+    protected static $vegetableNames = array(
         '玉ねぎ',
         'ニンニク',
         'トマト',
@@ -54,10 +54,10 @@ class Restaurant extends \Faker\Provider\Base
         'かぼちゃ',
         'ミント',
         '茄子',
-        'ヤムイモ',
-    ];
+        'ヤムイモ'
+    );
 
-    protected static $fruitNames = [
+    protected static $fruitNames = array(
         'レモン',
         '林檎',
         'バナナ',
@@ -80,10 +80,10 @@ class Restaurant extends \Faker\Provider\Base
         'キウイ',
         'パパイヤ',
         'グアバ',
-        'ライチ',
-    ];
+        'ライチ'
+    );
 
-    protected static $meatNames = [
+    protected static $meatNames = array(
         'チキン',
         'ベーコン',
         'ソーセージ',
@@ -94,17 +94,17 @@ class Restaurant extends \Faker\Provider\Base
         '七面鳥',
         '鶏手羽肉',
         '鶏の胸肉',
-        '子羊',
-    ];
+        '子羊'
+    );
 
-    protected static $sauceNames = [
+    protected static $sauceNames = array(
         'トマトソース',
         'トマトペースト',
         'マヨネーズソース',
         'バーベキューソース',
         'チリソース',
-        'ガーリックソース',
-    ];
+        'ガーリックソース'
+    );
 
     /**
      * A random Food Name.

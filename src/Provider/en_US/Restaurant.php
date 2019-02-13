@@ -4,21 +4,21 @@ namespace FakerRestaurant\Provider\en_US;
 
 class Restaurant extends \Faker\Provider\Base
 {
-    protected static $foodNames = [
+    protected static $foodNames = array(
         'Cheese Pizza', 'Hamburger', 'Cheeseburger', 'Bacon Burger', 'Bacon Cheeseburger',
         'Little Hamburger', 'Little Cheeseburger', 'Little Bacon Burger', 'Little Bacon Cheeseburger',
         'Veggie Sandwich', 'Cheese Veggie Sandwich', 'Grilled Cheese',
         'Cheese Dog', 'Bacon Dog', 'Bacon Cheese Dog', 'Pasta'
-    ];
+    );
 
-    protected static $beverageNames = [
+    protected static $beverageNames = array(
         'Beer', 'Bud Light', 'Budweiser', 'Miller Lite',
         'Milk Shake', 'Tea', ' Sweet Tea', 'Coffee', 'Hot Tea',
         'Champagne', 'Wine', 'Limonade', 'Coca-Cola', 'Diet-Coke',
         'Water', 'Sprite', 'Orange Juice', 'Iced Coffee'
-    ];
+    );
 
-    protected static $dairyNames = [
+    protected static $dairyNames = array(
         'Butter',
         'Egg',
         'Milk',
@@ -28,10 +28,10 @@ class Restaurant extends \Faker\Provider\Base
         'Yogurt',
         'Cream',
         'Milk',
-        'Custard',
-    ];
+        'Custard'
+    );
 
-    protected static $vegetableNames = [
+    protected static $vegetableNames = array(
         'Onion',
         'Garlic',
         'Tomato',
@@ -54,10 +54,10 @@ class Restaurant extends \Faker\Provider\Base
         'Pumpkin',
         'Mint',
         'Eggplant',
-        'Yam',
-    ];
+        'Yam'
+    );
 
-    protected static $fruitNames = [
+    protected static $fruitNames = array(
         'Lemon',
         'Apple',
         'Banana',
@@ -80,10 +80,10 @@ class Restaurant extends \Faker\Provider\Base
         'Kiwi',
         'Papaya',
         'Guava',
-        'Lychee',
-    ];
+        'Lychee'
+    );
 
-    protected static $meatNames = [
+    protected static $meatNames = array(
         'Chicken',
         'Bacon',
         'Sausage',
@@ -94,17 +94,17 @@ class Restaurant extends \Faker\Provider\Base
         'Turkey',
         'Chicken wing',
         'Chicken breast',
-        'Lamb',
-    ];
+        'Lamb'
+    );
 
-    protected static $sauceNames = [
+    protected static $sauceNames = array(
         'Tomato sauce',
         'Tomato paste',
         'Mayonaise sauce',
         'BBQ sauce',
         'Chili sauce',
-        'Garlic sauce',
-    ];
+        'Garlic sauce'
+    );
 
     /**
      * A random Food Name.
