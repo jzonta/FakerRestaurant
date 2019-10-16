@@ -38,6 +38,8 @@ Language specific formatters
 -----
 
 ```
+de_AT -> \FakerRestaurant\Provider\de_AT\Restaurant
+de_DE -> \FakerRestaurant\Provider\de_DE\Restaurant
 en_US -> \FakerRestaurant\Provider\en_US\Restaurant
 fr_FR -> \FakerRestaurant\Provider\fr_FR\Restaurant
 it_IT -> \FakerRestaurant\Provider\it_IT\Restaurant
