@@ -127,27 +127,27 @@ class Restaurant extends \Faker\Provider\Base
         return static::randomElement(static::$beverageNames);
     }
 
-    public function dairy()
+    public function dairyName()
     {
         return static::randomElement(static::$dairyNames);
     }
 
-    public function vegetable()
+    public function vegetableName()
     {
         return static::randomElement(static::$vegetableNames);
     }
 
-    public function fruit()
+    public function fruitName()
     {
         return static::randomElement(static::$fruitNames);
     }
 
-    public function meat()
+    public function meatName()
     {
         return static::randomElement(static::$meatNames);
     }
 
-    public function sauce()
+    public function sauceName()
     {
         return static::randomElement(static::$sauceNames);
     }
