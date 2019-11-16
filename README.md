@@ -44,5 +44,6 @@ en_US -> \FakerRestaurant\Provider\en_US\Restaurant
 fr_FR -> \FakerRestaurant\Provider\fr_FR\Restaurant
 it_IT -> \FakerRestaurant\Provider\it_IT\Restaurant
 ja_JP -> \FakerRestaurant\Provider\ja_JP\Restaurant
+lt_LT -> \FakerRestaurant\Provider\lt_LT\Restaurant
 pt_BR -> \FakerRestaurant\Provider\pt_BR\Restaurant
 ```
