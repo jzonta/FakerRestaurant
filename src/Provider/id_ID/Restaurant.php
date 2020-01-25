@@ -6,10 +6,15 @@ class Restaurant extends \Faker\Provider\Base
 {
     protected static $foodNames = [
         'Gado-Gado', 'Nasi Goreng', 'Mie Goreng', 'Mie Rebus', 'Kwetiau Goreng', 'Kwetiau Rebus',
-        'Nasi Uduk', 'Ayam Goreng', 'Ayam Bakar', 'Sate Ayam', 'Sate Kambing',
+        'Nasi Uduk', 'Ayam Goreng', 'Ayam Bakar', 'Sate Ayam', 'Sate Kambing', 'Rujak',
         'Soto Ayam', 'Soto Betawi', 'Sop Ayam', 'Sop Ikan', 'Rendang', 'Siomay', 'Batagor',
         'Sayur Lodeh', 'Sayur Asam', 'Sayur Bening', 'Pasta', 'Ketoprak', 'Ikan Bakar',
-        'Nasi Uduk', 'Nasi Kuning', 'Sayur Lodeh', 'Gulai', 'Sop Buntut'
+        'Nasi Uduk', 'Nasi Kuning', 'Sayur Lodeh', 'Gulai', 'Sop Buntut', 'Seblak', 'Sate Lilit',
+        'Serabi', 'Kroket', 'Semur', 'Laksa', 'Ayam Geprek', 'Ayam Tangkap', 'Pisang Molen', 
+        'Otak-Otak', 'Onde-Onde', 'Cireng', 'Gehu', 'Mie Kocok', 'Nasi Timbel', 'Klontong',
+        'Tahu Bulat', 'Pepes Ikan', 'Tahu Sumedang', 'Kupat Tahu', 'Tahu Bulat', 'Soto Kuning',
+        'Getuk', 'Klepon', 'Nasi Kucing', 'Nasi Pecel', 'Opor Ayam', 'Wajik', 'Urap', 'Babi Guling'
+
     ];
 
     protected static $beverageNames = [
