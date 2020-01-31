@@ -14,7 +14,7 @@ class Restaurant extends \Faker\Provider\Base
     protected static $beverageNames = [
         'Beer', 'Bud Light', 'Budweiser', 'Miller Lite',
         'Milk Shake', 'Tea', ' Sweet Tea', 'Coffee', 'Hot Tea',
-        'Champagne', 'Wine', 'Limonade', 'Coca-Cola', 'Diet-Coke',
+        'Champagne', 'Wine', 'Lemonade', 'Coca-Cola', 'Diet Coke',
         'Water', 'Sprite', 'Orange Juice', 'Iced Coffee'
     ];
 
@@ -45,7 +45,7 @@ class Restaurant extends \Faker\Provider\Base
         'Ginger',
         'Chili',
         'Celery',
-        'Roemary',
+        'Rosemary',
         'Cucumber',
         'Pickle',
         'Avocado',
@@ -98,7 +98,7 @@ class Restaurant extends \Faker\Provider\Base
     protected static $sauceNames = [
         'Tomato sauce',
         'Tomato paste',
-        'Mayonaise sauce',
+        'Mayonnaise sauce',
         'BBQ sauce',
         'Chili sauce',
         'Garlic sauce',
