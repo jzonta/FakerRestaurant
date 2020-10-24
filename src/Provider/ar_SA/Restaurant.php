@@ -1,6 +1,6 @@
 <?php
 
-namespace FakerRestaurant\Provider\en_US;
+namespace FakerRestaurant\Provider\ar_SA;
 
 class Restaurant extends \Faker\Provider\Base
 {
