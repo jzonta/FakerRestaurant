@@ -1,7 +1,7 @@
 FakerRestaurant
 =======================
 
-Food and Beverage names generate using fzaninotto/Faker
+Food and Beverage names generate using fakerphp/faker (previously fzaninotto/Faker).
 
 
 Installation
@@ -16,7 +16,7 @@ composer require jzonta/faker-restaurant
 Usage
 -----
 
-To  use this with [Faker](https://github.com/fzaninotto/Faker), you must add the `FakerRestaurant\Restaurant` class to the Faker generator:
+To  use this with [Faker](https://github.com/fakerphp/Faker), you must add the `FakerRestaurant\Restaurant` provider class to the Faker generator:
 
 ```php
 <?php

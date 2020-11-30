@@ -1,19 +1,19 @@
 {
-  "name": "jzonta/faker-restaurant",
-  "description": "Food and Beverage names generate using fzaninotto/Faker",
-  "homepage": "https://github.com/jzonta/FakerRestaurant",
-  "version": "1.1.11",
-  "license": "MIT",
-  "authors": [
-    { "name": "João Zonta" }
-  ],
-  "require": {
-    "php": ">=5.4.0",
-    "fzaninotto/faker": "~1.4"
-  },
-  "autoload": {
-    "psr-4": {
-      "FakerRestaurant\\": "src"
-    }
-  }
+	"name": "jzonta/faker-restaurant",
+	"description": "Food and Beverage names generate using fakerphp/faker (previously fzaninotto/Faker)",
+	"homepage": "https://github.com/jzonta/FakerRestaurant",
+	"version": "2.0.0",
+	"license": "MIT",
+	"authors": [{
+		"name": "João Zonta"
+	}],
+	"require": {
+		"php": ">=5.4.0",
+		"fakerphp/faker": "^1.9.1"
+	},
+	"autoload": {
+		"psr-4": {
+			"FakerRestaurant\\": "src"
+		}
+	}
 }
