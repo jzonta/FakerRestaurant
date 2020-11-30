@@ -13,7 +13,13 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"FakerRestaurant\\": "src"
+			"FakerRestaurant\\": "src",
+			"Faker\\": "vendor/fakerphp/faker/src"
 		}
+	},
+	"scripts": {
+		"test": [
+			"php test/_all.php"
+		]
 	}
 }
