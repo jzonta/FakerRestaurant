@@ -2,7 +2,7 @@
 	"name": "jzonta/faker-restaurant",
 	"description": "Food and Beverage names generate using fakerphp/faker (previously fzaninotto/Faker)",
 	"homepage": "https://github.com/jzonta/FakerRestaurant",
-	"version": "2.0.0",
+	"version": "2.1.0",
 	"license": "MIT",
 	"authors": [{
 		"name": "João Zonta"
