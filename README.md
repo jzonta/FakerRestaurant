@@ -63,3 +63,8 @@ To start the docker: `docker-compose up -d`
 To access the container: `docker exec -it php_faker_restaurant bash`  
 
 Run `composer install`
+
+Tests
+-----
+
+Run testes in container `./vendor/bin/phpunit --testdox tests`
