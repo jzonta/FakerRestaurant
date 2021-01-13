@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  php_faker_restaurant:
+    container_name: php_faker_restaurant
+    build:
+      context: .
+    volumes:
+      - ./:/var/www/

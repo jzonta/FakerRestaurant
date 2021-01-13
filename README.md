@@ -53,3 +53,13 @@ pt_BR -> \FakerRestaurant\Provider\pt_BR\Restaurant
 sv_SE -> \FakerRestaurant\Provider\sv_SE\Restaurant
 vi_VN -> \FakerRestaurant\Provider\vi_VN\Restaurant
 ```
+
+Development environment
+-----
+
+If you want to contribute to the project, use the docker development environment.  
+
+To start the docker: `docker-compose up -d`  
+To access the container: `docker exec -it php_faker_restaurant bash`  
+
+Run `composer install`
