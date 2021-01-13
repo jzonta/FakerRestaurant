@@ -10,7 +10,7 @@ class Restaurant extends \Faker\Provider\Base
         'Soto Ayam', 'Soto Betawi', 'Sop Ayam', 'Sop Ikan', 'Rendang', 'Siomay', 'Batagor',
         'Sayur Lodeh', 'Sayur Asam', 'Sayur Bening', 'Pasta', 'Ketoprak', 'Ikan Bakar',
         'Nasi Uduk', 'Nasi Kuning', 'Sayur Lodeh', 'Gulai', 'Sop Buntut', 'Seblak', 'Sate Lilit',
-        'Serabi', 'Kroket', 'Semur', 'Laksa', 'Ayam Geprek', 'Ayam Tangkap', 'Pisang Molen', 
+        'Serabi', 'Kroket', 'Semur', 'Laksa', 'Ayam Geprek', 'Ayam Tangkap', 'Pisang Molen',
         'Otak-Otak', 'Onde-Onde', 'Cireng', 'Gehu', 'Mie Kocok', 'Nasi Timbel', 'Klontong',
         'Tahu Bulat', 'Pepes Ikan', 'Tahu Sumedang', 'Kupat Tahu', 'Tahu Bulat', 'Soto Kuning',
         'Getuk', 'Klepon', 'Nasi Kucing', 'Nasi Pecel', 'Opor Ayam', 'Wajik', 'Urap', 'Babi Guling'
@@ -19,7 +19,7 @@ class Restaurant extends \Faker\Provider\Base
 
     protected static $beverageNames = [
         'Es Teh', 'Es Jeruk', 'Jus Jambu', 'Jus Alpukat', 'Es Buah', 'Es Dawet',
-        'Es Kelapa Muda', 'Wedang Ronde', 'Susu Hangat', 'Kopi', 'Teh Panas', 
+        'Es Kelapa Muda', 'Wedang Ronde', 'Susu Hangat', 'Kopi', 'Teh Panas',
         'Jeruk Hangat', 'Coca-Cola', 'Diet-Coke', 'Es Susu', 'Susu Coklat',
         'Air Putih', 'Sprite', 'Jus Jeruk', 'Es Kopi', 'Es Cendol', 'Skoteng'
     ];

@@ -4,7 +4,6 @@ namespace FakerRestaurant\Provider\fr_FR;
 
 class Restaurant extends \Faker\Provider\Base
 {
-
     protected static $foodNames = array(
         'Pizza au fromage', 'Hamburger', 'Cheeseburger', 'Moules Marinières', 'Salade Grecque',
         'Petit Hamburger', 'Petit Cheeseburger', 'Petit Bacon Burger', 'Petit Bacon Cheeseburger',
