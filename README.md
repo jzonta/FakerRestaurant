@@ -1,7 +1,7 @@
 FakerRestaurant
 =======================
 
-Food and Beverage names generate using fzaninotto/Faker
+Food and Beverage names generate using fakerphp/faker
 
 
 Installation
