@@ -51,6 +51,7 @@ ja_JP -> \FakerRestaurant\Provider\ja_JP\Restaurant
 lt_LT -> \FakerRestaurant\Provider\lt_LT\Restaurant
 pt_BR -> \FakerRestaurant\Provider\pt_BR\Restaurant
 sv_SE -> \FakerRestaurant\Provider\sv_SE\Restaurant
+tr_TR -> \FakerRestaurant\Provider\tr_TR\Restaurant
 vi_VN -> \FakerRestaurant\Provider\vi_VN\Restaurant
 ```
 
