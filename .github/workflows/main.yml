@@ -1,12 +1,6 @@
 name: Workflow FakerRestaurant
 
-on:
-  push:
-    branches:
-      - WorkflowGithub
-  pull_request:
-    branches:
-      - WorkflowGithub
+on: [push, pull_request]
 
 jobs:
   build:
