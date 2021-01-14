@@ -1,0 +1,35 @@
+name: Workflow FakerRestaurant
+
+on:
+  push:
+    branches:
+      - WorkflowGithub
+  pull_request:
+    branches:
+      - WorkflowGithub
+
+jobs:
+  build:
+    name: Tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+
+      - name: Setting up PHP
+        uses: ./.github/
+
+      - name: Running Composer Install
+        run: |
+          chmod +x ./.github/scripts/run-composer.sh
+          ./.github/scripts/run-composer.sh
+
+      - name: Running PHPStan
+        run: |
+          chmod +x ./.github/scripts/run-phpstan.sh
+          ./.github/scripts/run-phpstan.sh
+
+      - name: Running PHPUnit
+        run: |
+          chmod +x ./.github/scripts/run-phpunit.sh
+          ./.github/scripts/run-phpunit.sh
