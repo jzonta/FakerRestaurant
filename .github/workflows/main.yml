@@ -20,9 +20,9 @@ jobs:
         uses: ./.github/
 
       - name: Running Composer Install
-          run: |
-            chmod +x ./.github/scripts/run-composer.sh
-            ./.github/scripts/run-composer.sh
+        run: |
+          chmod +x ./.github/scripts/run-composer.sh
+          ./.github/scripts/run-composer.sh
 
       - name: Running PHPStan
         run: |
