@@ -20,7 +20,11 @@ jobs:
         uses: ./.github/
 
       - name: Running PHPStan
-        run: ./.github/scripts/run-phpstan.sh
+        run: |
+          chmod +x ./.github/scripts/run-phpstan.sh
+          ./.github/scripts/run-phpstan.sh
 
       - name: Running PHPUnit
-        run: ./.github/scripts/run-phpunit.sh
+        run: |
+          chmod +x ./.github/scripts/run-phpunit.sh
+          ./.github/scripts/run-phpunit.sh
