@@ -19,6 +19,11 @@ jobs:
       - name: Setting up PHP
         uses: ./.github/
 
+      - name: Running Composer Install
+          run: |
+            chmod +x ./.github/scripts/run-composer.sh
+            ./.github/scripts/run-composer.sh
+
       - name: Running PHPStan
         run: |
           chmod +x ./.github/scripts/run-phpstan.sh
