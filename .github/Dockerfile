@@ -3,7 +3,7 @@ FROM php:7.4-cli-alpine
 WORKDIR /var/www
 
 # Install bash
-RUN apk add -y \
+RUN apk add \
  zip \
  unzip
 
