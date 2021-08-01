@@ -1,3 +1,10 @@
+Original Repo
+=======================
+https://github.com/jzonta/FakerRestaurant
+
+* This package only to change names to comply with islamic guidance for middle east customers usage.
+
+
 FakerRestaurant
 =======================
 
