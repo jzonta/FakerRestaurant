@@ -9,7 +9,7 @@
   ],
   "require": {
     "php": ">=7.1",
-    "fakerphp/faker": "^1.16.1"
+    "fakerphp/faker": "^1.9.1"
   },
   "autoload": {
     "psr-4": {
