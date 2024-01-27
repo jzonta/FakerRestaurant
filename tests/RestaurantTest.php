@@ -2,10 +2,10 @@
 
 use PHPUnit\Framework\TestCase;
 use Faker\Factory;
+use Faker\Generator;
 
 final class RestaurantTest extends TestCase
 {
-
     protected $folder;
 
     public function setUp(): void
@@ -15,72 +15,60 @@ final class RestaurantTest extends TestCase
 
     public function testCanBeFoodNameReturnStringInAllLanguages(): void
     {
-        foreach ($this->folder as $folder) {
-            $class = 'FakerRestaurant\Provider\\'.$folder.'\Restaurant';
-            $faker = Factory::create();
-            $faker->addProvider(new $class($faker));
-            $this->assertIsString($faker->foodName());
-        }
+        $this->testIterator(static function (Generator $faker) {
+            return $faker->foodName();
+        });
     }
 
     public function testCanBeBeverageNameReturnStringInAllLanguages(): void
     {
-        foreach ($this->folder as $folder) {
-            $class = 'FakerRestaurant\Provider\\'.$folder.'\Restaurant';
-            $faker = Factory::create();
-            $faker->addProvider(new $class($faker));
-            $this->assertIsString($faker->beverageName());
-        }
+        $this->testIterator(static function (Generator $faker) {
+            return $faker->beverageName();
+        });
     }
 
     public function testCanBeDairyNameReturnStringInAllLanguages(): void
     {
-        foreach ($this->folder as $folder) {
-            $class = 'FakerRestaurant\Provider\\'.$folder.'\Restaurant';
-            $faker = Factory::create();
-            $faker->addProvider(new $class($faker));
-            $this->assertIsString($faker->dairyName());
-        }
+        $this->testIterator(static function (Generator $faker) {
+            return $faker->dairyName();
+        });
     }
 
     public function testCanBeVegetableNameReturnStringInAllLanguages(): void
     {
-        foreach ($this->folder as $folder) {
-            $class = 'FakerRestaurant\Provider\\'.$folder.'\Restaurant';
-            $faker = Factory::create();
-            $faker->addProvider(new $class($faker));
-            $this->assertIsString($faker->vegetableName());
-        }
+        $this->testIterator(static function (Generator $faker) {
+            return $faker->vegetableName();
+        });
     }
 
     public function testCanBeFruitNameReturnStringInAllLanguages(): void
     {
-        foreach ($this->folder as $folder) {
-            $class = 'FakerRestaurant\Provider\\'.$folder.'\Restaurant';
-            $faker = Factory::create();
-            $faker->addProvider(new $class($faker));
-            $this->assertIsString($faker->fruitName());
-        }
+        $this->testIterator(static function (Generator $faker) {
+            return $faker->fruitName();
+        });
     }
 
     public function testCanBeMeatNameReturnStringInAllLanguages(): void
     {
-        foreach ($this->folder as $folder) {
-            $class = 'FakerRestaurant\Provider\\'.$folder.'\Restaurant';
-            $faker = Factory::create();
-            $faker->addProvider(new $class($faker));
-            $this->assertIsString($faker->meatName());
-        }
+        $this->testIterator(static function (Generator $faker) {
+            return $faker->meatName();
+        });
     }
 
     public function testCanBeSauceNameReturnStringInAllLanguages(): void
+    {
+        $this->testIterator(static function (Generator $faker) {
+            return $faker->sauceName();
+        });
+    }
+
+    private function testIterator(callable $func)
     {
         foreach ($this->folder as $folder) {
             $class = 'FakerRestaurant\Provider\\'.$folder.'\Restaurant';
             $faker = Factory::create();
             $faker->addProvider(new $class($faker));
-            $this->assertIsString($faker->sauceName());
+            $this->assertIsString($func($faker));
         }
     }
-
 }
