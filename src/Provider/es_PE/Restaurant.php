@@ -2,7 +2,9 @@
 
 namespace FakerRestaurant\Provider\es_PE;
 
-class Restaurant extends \Faker\Provider\Base
+use FakerRestaurant\AbstractRestaurant;
+
+class Restaurant extends AbstractRestaurant
 {
     protected static $foodNames = [
         'Hamburguesas con papas', 'Estofado de pollo', 'Lentejas con arroz','Kanlu Wantan', 'Chicharrón de Pollo',
@@ -111,67 +113,4 @@ class Restaurant extends \Faker\Provider\Base
         'Mostaza',
         'Salsa chimichurri'
     ];
-
-    /**
-     * Un nombre aleatorio de platillos (Paises:Perú,).
-     * @return string
-     */
-    public function foodName()
-    {
-        return static::randomElement(static::$foodNames);
-    }
-
-    /**
-     * Un nombre aleatorio de una bebida.
-     * @return string
-     */
-    public function beverageName()
-    {
-        return static::randomElement(static::$beverageNames);
-    }
-
-    /**
-     * Un nombre aleatorio de un lacteo.
-     * @return string
-     */
-    public function dairyName()
-    {
-        return static::randomElement(static::$dairyNames);
-    }
-
-    /**
-     * Un nombre aleatorio de un vegetal.
-     * @return string
-     */
-    public function vegetableName()
-    {
-        return static::randomElement(static::$vegetableNames);
-    }
-
-    /**
-     * Un nombre aleatorio de una fruta.
-     * @return string
-     */
-    public function fruitName()
-    {
-        return static::randomElement(static::$fruitNames);
-    }
-
-    /**
-     * Un nombre aleatorio de una carne.
-     * @return string
-     */
-    public function meatName()
-    {
-        return static::randomElement(static::$meatNames);
-    }
-
-    /**
-     * Un nombre aleatorio de una salsa
-     * @return string
-     */
-    public function sauceName()
-    {
-        return static::randomElement(static::$sauceNames);
-    }
 }

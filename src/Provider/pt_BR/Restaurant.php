@@ -2,7 +2,9 @@
 
 namespace FakerRestaurant\Provider\pt_BR;
 
-class Restaurant extends \Faker\Provider\Base
+use FakerRestaurant\AbstractRestaurant;
+
+class Restaurant extends AbstractRestaurant
 {
     protected static $foodNames = [
         'Pizza', 'Pastel', 'X-Salada', 'Xis-Bacon', 'X-Coração', 'X-Frango', 'X-Bacon', 'X-Calabresa',
@@ -108,47 +110,4 @@ class Restaurant extends \Faker\Provider\Base
         'Molho de pimenta',
         'Molho de alho',
     ];
-
-    /**
-     * A random Food Name.
-     * @return string
-     */
-    public function foodName()
-    {
-        return static::randomElement(static::$foodNames);
-    }
-
-    /**
-     * A random Beverage Name.
-     * @return string
-     */
-    public function beverageName()
-    {
-        return static::randomElement(static::$beverageNames);
-    }
-
-    public function dairyName()
-    {
-        return static::randomElement(static::$dairyNames);
-    }
-
-    public function vegetableName()
-    {
-        return static::randomElement(static::$vegetableNames);
-    }
-
-    public function fruitName()
-    {
-        return static::randomElement(static::$fruitNames);
-    }
-
-    public function meatName()
-    {
-        return static::randomElement(static::$meatNames);
-    }
-
-    public function sauceName()
-    {
-        return static::randomElement(static::$sauceNames);
-    }
 }
